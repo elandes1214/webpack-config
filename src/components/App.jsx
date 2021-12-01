@@ -1,6 +1,7 @@
 import "../styles/index.scss";
 import Recipes from "./Recipes"
 import hair from "../images/best_hair_day.png"
+import Whatever from "./Whatever"
 
 const App = () => {
 	return (
@@ -12,6 +13,7 @@ const App = () => {
 				</section>
 				<img src={hair} alt="hair" width="250" />
 				<Recipes />
+				<Whatever />
 			</main>
 		</>
 	);
